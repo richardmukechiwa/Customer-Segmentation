@@ -115,3 +115,4 @@ By segmenting customers based on income and total spend, businesses can better a
 - Extend the analysis by incorporating predictive modeling to identify customer churn or predict future spending.
 
 
+
