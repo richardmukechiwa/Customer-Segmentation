@@ -70,7 +70,6 @@ Final Features Used for Clustering
 The clustering analysis revealed three primary customer segments:
 
 Here's a chart illustrating the customer segmentation results:
-
 ![Customer Segmentation Chart](https://github.com/richardmukechiwa/Customer-Segmentation-Based-on-Income-and-Total-Spend-/blob/main/Clusterpic.png)
 
 High Income, High Spend:
