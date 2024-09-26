@@ -22,17 +22,17 @@ _Total Spend:_ Sum of the total amount spent by the customer across various prod
 
 The dataset includes other features such as:
 
-Recency: Number of days since the last purchase.
+_Recency:_ Number of days since the last purchase.
 
-Kidhome/Teenhome: Number of children/teenagers in the household.
+_Kidhome/Teenhome:_ Number of children/teenagers in the household.
 
-NumDealsPurchases: Purchases made with discounts or special deals.
+_NumDealsPurchases:_ Purchases made with discounts or special deals.
 
-NumWebPurchases: Number of purchases made via the website.
+_NumWebPurchases:_ Number of purchases made via the website.
 
-NumStorePurchases: Number of purchases made in physical stores.
+_NumStorePurchases:_ Number of purchases made in physical stores.
 
-NumCatalogPurchases: Number of purchases made via catalog.
+_NumCatalogPurchases:_ Number of purchases made via catalog.
 
 ### Feature Engineering
 
@@ -47,58 +47,71 @@ Final Features Used for Clustering
   
 ### Methodology
 
-**Data Preprocessing:**
+## **Data Preprocessing:**
 
 - Handled missing values, standardized income and purchase amount values for better performance in clustering.
 - 
 - Scaled both Income and Total Purchase Amount using StandardScaler to ensure that both features are on the same scale.
   
-**Clustering:**
+### **Clustering:**
 
 - Implemented KMeans clustering with an optimal number of clusters determined by the Elbow Method and Silhouette Score.
   
 - Segmented customers into different groups based on their income levels and spending patterns.
   
-**Visualization:**
+### **Visualization:**
 
 - Used scatter plots and cluster centroids to visualize the customer segments.
   
 - Highlighted distinct customer segments with color coding based on Income and Total Spend.
   
-**Results**
+### **Results**
 
 The clustering analysis revealed three primary customer segments:
 
 Here's a chart illustrating the customer segmentation results:
 ![Customer Segmentation Chart](https://github.com/richardmukechiwa/Customer-Segmentation-Based-on-Income-and-Total-Spend-/blob/main/Clusterpic.png)
 
-High Income, High Spend:
+##### Group 0: **High Income, High Spend:** (Target Group)
 
-Customers with the highest purchasing power and highest total spend.
-Ideal for premium product marketing and loyalty programs.
-Moderate Income, Moderate Spend:
+ **Customers with the highest purchasing power and highest total spend.**
+- Ideal for premium product marketing and loyalty programs.
+  
+##### Group 2: **Moderate Income, Moderate Spend: **
 
-Customers with moderate income and balanced spending habits.
-Potential target for upselling and cross-selling opportunities.
-Low Income, Low Spend:
+**Customers with moderate income and balanced spending habits.**
+- Potential target for upselling and cross-selling opportunities.
 
-Customers with lower income and spending.
-Focus on cost-effective products and promotional deals to increase engagement.
-Insights:
-High-income customers tend to spend significantly more, making them prime candidates for personalized offers.
-Moderate-income customers can be encouraged to increase spending by promoting higher-value products.
-Low-income customers may respond better to discounts, bundles, or loyalty rewards to boost their spending behavior.
-Conclusion
+##### Group 1 : **Low Income, Low Spend:**
+
+**- Customers with lower income and spending with a few outlying cases**
+- Focus on cost-effective products and promotional deals to increase engagement.
+  
+### Insights:
+
+- High-income customers tend to spend significantly more, making them prime candidates for personalized offers.
+  
+- Moderate-income customers can be encouraged to increase spending by promoting higher-value products.
+  
+- Low-income customers may respond better to discounts, bundles, or loyalty rewards to boost their spending behavior.
+  
+### Conclusion
+
 By segmenting customers based on income and total spend, businesses can better allocate marketing resources and create more targeted marketing campaigns. These insights can help in identifying key customer groups, improving customer satisfaction, and boosting overall sales.
 
-Tools and Libraries
-Python: Used for data preprocessing, analysis, and visualization.
-Pandas: For data manipulation and feature engineering.
-Scikit-learn: For implementing the KMeans algorithm.
-Matplotlib/Seaborn: For creating visualizations of the clusters.
-Future Work
-Include more features such as recency, number of purchases by channel, and household size to further refine the segmentation.
-Explore other clustering techniques like DBSCAN or Hierarchical Clustering for comparison.
-Extend the analysis by incorporating predictive modeling to identify customer churn or predict future spending.
+### Tools and Libraries
+
+**Python:** Used for data preprocessing, analysis, and visualization.
+
+**Pandas:** For data manipulation and feature engineering.
+
+**Scikit-learn:** For implementing the KMeans algorithm.
+
+**Matplotlib/Seaborn:** For creating visualizations of the clusters.
+
+### Future Work
+- Including more features such as recency, number of purchases by channel, and household size to further refine the segmentation.
+- Explore other clustering techniques like DBSCAN or Hierarchical Clustering for comparison.
+- Extend the analysis by incorporating predictive modeling to identify customer churn or predict future spending.
 
 
