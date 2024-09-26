@@ -69,6 +69,10 @@ Final Features Used for Clustering
 
 The clustering analysis revealed three primary customer segments:
 
+Here's a chart illustrating the customer segmentation results:
+
+![Customer Segmentation Chart](C:\Users\RICH-FILES\Downloads\MachineLearning\10 portfolioprojects\Clusterpic.png)
+
 High Income, High Spend:
 
 Customers with the highest purchasing power and highest total spend.
