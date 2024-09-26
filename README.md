@@ -50,7 +50,7 @@ Final Features Used for Clustering
 ## **Data Preprocessing:**
 
 - Handled missing values, standardized income and purchase amount values for better performance in clustering.
-- 
+  
 - Scaled both Income and Total Purchase Amount using StandardScaler to ensure that both features are on the same scale.
   
 ### **Clustering:**
