@@ -71,7 +71,7 @@ The clustering analysis revealed three primary customer segments:
 
 Here's a chart illustrating the customer segmentation results:
 
-![Customer Segmentation Chart](images/Clusterpic.png)
+![Customer Segmentation Chart](Images/Clusterpic.png)
 
 High Income, High Spend:
 
